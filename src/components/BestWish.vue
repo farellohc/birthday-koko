@@ -3,8 +3,8 @@ withDefaults(defineProps<{
   name: string
   msg: string
 }>(), {
-  name: 'You',
-  msg: 'Happy Birthday!',
+  name: 'Happy birthday',
+  msg: 'Khairan',
 })
 </script>
 

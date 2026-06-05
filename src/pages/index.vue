@@ -3,7 +3,7 @@ import { useRoute } from 'vue-router'
 import { useSound } from '@vueuse/sound'
 import bubble from '~/utils/bubble'
 
-const birthdayMusic = useSound('/audio/happy-birthday.mp3')
+const birthdayMusic = useSound('/audio/happy-birthday.m4a')
 
 const route = useRoute()
 const name = route.query.name as string
